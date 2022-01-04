@@ -1,0 +1,29 @@
+PODS:
+  - Flutter (1.0.0)
+  - foloosi (1.3.2):
+    - Flutter
+    - Foloosi-iOS-SDK (~> 1.3.2)
+  - Foloosi-iOS-SDK (1.3.2)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - foloosi (from `.symlinks/plugins/foloosi/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Foloosi-iOS-SDK
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  foloosi:
+    :path: ".symlinks/plugins/foloosi/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  foloosi: 65fa390229eb5a356db51006cb837cdee470c9f1
+  Foloosi-iOS-SDK: 299d9bb4dfc551dfc0c86ad8661b1b91cab8ae01
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.11.2
