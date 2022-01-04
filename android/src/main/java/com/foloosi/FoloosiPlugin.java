@@ -25,8 +25,7 @@ import io.flutter.plugin.common.MethodChannel.MethodCallHandler;
 import io.flutter.plugin.common.MethodChannel.Result;
 import io.flutter.plugin.common.PluginRegistry.Registrar;
 
-public class FoloosiPlugin implements FlutterPlugin, MethodCallHandler
-        , ActivityAware, FPayListener {
+public class FoloosiPlugin implements FlutterPlugin, MethodCallHandler, ActivityAware, FPayListener {
 
     private MethodChannel channel;
 
